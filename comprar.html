@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script type="text/javascript" src="calculos.js"></script>
+    <title>Conf Bs As</title>
+  </head>
+
+
+  <body>
+    <header>
+        <div class="cabecera">
+            <div>
+              <a href="#">
+                <img src="./imagenes_integrador_front/codoacodo.png" alt="codoacodo" class="codoacodo">
+              </a>
+            </div>
+            <h1 class="confbsas">Conf Bs As</h1>
+            <ul class="hlinks">
+              <li><a class="color white" href="index.html" >La conferencia</a></li>
+              <li><a href="#" >Los oradores</a></li>
+              <li><a href="#">El lugar y la fecha</a></li>
+              <li><a href="#" >Conviértete en orador</a></li>
+              <li><a class="comprar" href="comprar.html" >Comprar tickets</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <br>
+
+    <main>
+        <div class="container fluid d-flex justify-content-center ">
+            <div class="card-group "  style="width: 46rem;">
+              <div class="card border border-primary text-center mx-1 ">
+                <p class="card-header bg-primary text-white">Estudiante</p>
+                <div class="card-body">
+                    <p class="card-text">Tiene un descuento</p>
+                     <p class="card-text"> <strong>80%</strong></p>
+                     <p class="card-text text-muted"> <small> *presentar documentación</small></p>
+                </div>
+              </div>
+
+            <div class="card border border-info text-center mx-1" >
+                <p class="card-header bg-info text-white">Trainee</p>
+                <div class="card-body">
+                    <p class="card-text">Tiene un descuento</p>
+                    <p class="card-text"> <strong>50%</strong></p>
+                    <p class="card-text text-muted"><small> *presentar documentación</small></p>
+                </div>
+            </div>
+    
+            <div class="card border border-warning text-center mx-1" >
+                <p class="card-header bg-warning text-white">Junior</p>
+                <div class="card-body">
+                    <p class="card-text">Tiene un descuento</p>
+                    <p class="card-text"> <strong>15%</strong></p>
+                    <p class="card-text text-muted"><small> *presentar documentación</small></p>
+                </div>
+            </div>
+        </div>
+      </div>
+        
+        <div>
+          <p class="text-uppercase pt-2 mb-0 text-center">
+            <small>venta</small>
+          </p>
+          <p class="h3 text-uppercase text-center">valor de ticket $200</p>
+        </div>
+
+        <div class="container-fluid col-9"style="width: 50%;">
+        <form class="row g-3" id="compraEntradas" >
+          
+          <div class="col-md-6 width:10px">
+            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre"  aria-label="Nombre" >
+          </div>
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="inputApellido" placeholder="Apellido"  aria-label="Apellido">
+          </div>
+          <div class="col-12">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Correo" aria-label="Correo">
+          </div>
+          
+          <div class="col-md-6">
+            <label for="inputCantidad" class="form-label">Cantidad</label>
+            <input type="text" class="form-control" id="inputCantidad" placeholder="cantidad">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCategoria" class="form-label">Categoría</label>
+            <select id="inputCategoria" class="form-select" >
+              <option selected>Sin categoria</option>
+              <option>Estudiante</option>
+              <option>Trainee</option>
+              <option>Junior</option>
+              <option>General</option>
+            </select>
+          </div>
+      
+          <div class="alert alert-primary " role="alert" >
+            <p class="mb-0" id="importeTotal">Total a Pagar: $</p>
+          </div>
+          
+          <div class="col">
+              <button class="btn btn-success col-sm-12  botonEnviar" type="button" id="btnBorrar" onclick="borrar();">Borrar</button>
+          </div>
+          <div class="col">
+              <button class="btn btn-success col-sm-12 botonEnviar" type="button" id="btnResumen"  onclick="calcularTotal();">Resumen</button>
+            </div>
+          </div>
+        
+        </form>
+      </div>
+    </main>
+
+    <br>
+
+    <footer>
+        <ul class="footer">
+          <li class="preguntas"><a href="#preguntas" style="text-decoration: none; color: white"> Preguntas frecuentes</a>
+          </li>
+          <li class="contacto"><a href="#contacto" style="text-decoration: none; color: white">
+                  Contáctanos</a>
+          </li>
+          <li class="prensa">
+              <a href="#" style="text-decoration: none; color: white"> Prensa</a>
+          </li>
+          <li class="conferencias"><a href="#" style="text-decoration: none; color: white">Conferencias</a>
+          </li>
+          <li class="terminosycondiciones"><a href="3" style="text-decoration: none; color: white"> Términos y condiciones</a>
+          </li>
+          <li class="privacidad"><a href="#" style="text-decoration: none; color: white">
+                  Privacidad</a>
+          </li>
+          <li class="estudiantes"><a href="#" style="text-decoration: none; color: white">
+                  Estudiantes</a>
+          </li>
+      </ul>
+    
+      </footer>
+
+    <script
+      src="bootstrap.css";
+
+    ></script>
+  </body>
+</html>
