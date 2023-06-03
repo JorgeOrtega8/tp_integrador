@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+ul li a{
+    color: grey;
+    text-decoration: none; 
+}
+
+ul li a:hover{
+    color: white;
+    text-decoration: none; 
+}
+
+.cabecera{
+    background-color: rgb(45, 50, 55);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 100px;
+    width: 100%;
+}
+
+.hlinks{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    list-style-type: none;
+    padding-left: 300px;
+    margin-top: 18px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.codoacodo {
+    width: 110px; 
+    height: 60px;
+}
+
+.logo {
+    width: 140px; 
+    height: 80px;
+}
+
+.confbsas {
+    margin-top: 14px;
+    color: white;
+    font-weight:350;
+    font-size: 27px;
+}
+
+.conferencia{
+    color: white;
+}
+
+.compTickes{
+    color: green;
+}
+.compTickes:hover{
+    color: rgb(4, 165, 4);
+}
+
+.comprar{
+    color: rgb(4, 165, 4);
+}
+
+#ba1 {
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+    filter: brightness(0.5);
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    
+}
+
+.confTitulo {
+    color: white;
+    text-align: right;
+    padding-top: 300px;
+    padding-right: 175px;
+}
+
+.texto {
+    color: white;
+    text-align: right;
+    padding-right: 175px;
+    margin-top: 10px;
+    padding-left: 800px;
+    font-size: 17px;
+
+}
+
+.buttons {
+    padding-left: 985px;
+    margin-bottom: 250px;
+    font-size: 1.1rem;
+}
+
+.paneles {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.panel1 {
+
+    margin-right: 50px;
+    width: 20rem; 
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.panel2 {
+    margin-right: 50px;
+    width: 20rem;  
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.panel3 {
+    width: 20rem; 
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.panel-texto{
+    font-size: 13px;
+}
+
+.container {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.col-6.themed-grid-col {
+    width: 57%;
+}
+
+.col-6.themed-grid-col.text {
+    width: 58%; 
+    background-color: rgb(62, 68, 75); 
+    color: white; 
+    border-left: 0.5px solid gray;
+}
+
+.bsasoctubre {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.bsastexto {
+    padding-left: 20px;
+    font-weight: 100px;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.nota {
+    margin-left: 400px; 
+    margin-top: 5px; 
+    color: rgba(154,151,158,255);
+    font-size: 0.7rem;
+}
+
+.nombre {
+    margin-left: 400px
+}
+
+.apellido {
+    margin-right: 400px;
+}
+
+.form-floating {
+    margin-left: 400px; 
+    margin-right: 400px;
+}
+
+.enviar {
+    margin-left: 400px; 
+    margin-right: 400px; 
+    width: 47.2%; 
+    background-color: rgba(150,201,62,255); 
+    border-color: rgba(150,201,62,255); 
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    background: linear-gradient(70deg, rgb(21, 67, 96), rgb(31, 97, 141));
+    display: flex;
+    color:white;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0%;
+
+}
+.terminosycondiciones {
+    width: 8%; 
+    line-height: 150%
+}
+
+.conferencias {
+    width: 7%;
+}
+
+.privacidad {
+    width: 7%;
+}
+
+.estudiantes {
+    width: 7%;
+}
+
+.prensa {
+    width: 7%;
+}
+
+.preguntas {
+    width: 7%;
+    line-height: 150%;
+    margin-top: 5px;
+}
